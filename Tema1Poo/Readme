@@ -1,0 +1,15 @@
+	In primul rand,mi-am facut clasa erou,care va reprezenta clasa parinte a tutoror celorlalti eroi.In constructor,am initializat pozitia in care se afla eroul,un contor care sa indice daca eroul da sau
+sufera de o abilitate overtime,metode care returneza pragul de xp,xp-ul calculat,durata abilitatii
+overtime,daca eroul se misca,pozitia eroului,modificatorul,viata,xp-ul,damage-ul total,abilitatea
+tipul eroului si asa mai departe.In fiecare subclasa a clasei hero am defenit eroii impreuna cu
+abiitatile acestora.
+	In clasa main,am instantiat clasa File pentru cele doua fisiere,primul de citire,celalalt
+de scriere,am citit dimensiunile hartii,apoi harta implicita,dupa am citit toti eroii,respectiv 
+coordonatele initiale.Dupa am inceput efectiv jocul,la inceputul fiecarei runde am cautat prin
+vectorul de eroi,daca sunt eroi care trebuiesc sa execute o abilitate overtime asupra altui erou.
+Dupa am deplasat eroii in functie de indicatiile hartii.In cazul in care cei doi se intalnesc in
+acelasi loc ,se vor lupta.La sfarsitul fiecarei lupte se va calcula viata ramasa,se va vedea daca
+unul din cei doi eroi mare,xp-ul fiecaruia si posibilitatea daca se poate trece la levelup.La final
+am afisat fiecare erou impreuna cu viata si xp-ul fiecaruia.
+
+
